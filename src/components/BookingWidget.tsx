@@ -70,7 +70,7 @@ const BookingWidget = () => {
                 className="w-full bg-yellow-600 text-white py-3 px-4 rounded-md hover:bg-yellow-700 transition-colors duration-200 font-semibold flex items-center justify-center space-x-2"
               >
                 <Search className="h-5 w-5" />
-                <span>Check Availability</span>
+                <span> Availability</span>
               </button>
             </div>
           </div>
