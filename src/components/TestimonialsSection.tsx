@@ -2,6 +2,7 @@ import React from 'react';
 import { Star, Quote } from 'lucide-react';
 
 const TestimonialsSection = () => {
+  // Guest feedback entries with name, location, rating and comment
   const testimonials = [
     {
       name: 'Sarah Johnson',
