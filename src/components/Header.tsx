@@ -5,6 +5,7 @@ import { Menu, X, Crown } from 'lucide-react';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  // List of pages linked in the site navigation menu
   const navigation = [
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
@@ -29,7 +30,7 @@ const Header = () => {
             </div>
           </Link>
 
-          {/* Desktop Navigation */}
+          {/* Desktop navigation shown only on large screens */}
           <nav className="hidden lg:flex space-x-8">
             {navigation.map((item) => (
               <Link
@@ -61,7 +62,7 @@ const Header = () => {
           </button>
         </div>
 
-        {/* Mobile Navigation */}
+        {/* Mobile navigation dropdown toggled by the hamburger button */}
         {isMenuOpen && (
           <div className="lg:hidden absolute top-20 left-0 right-0 bg-white shadow-lg border-t">
             <nav className="px-4 py-4 space-y-2">
