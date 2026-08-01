@@ -4,6 +4,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const HeroSection = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
+  // Carousel slides each holding a background image and hero text
   const slides = [
     {
       image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080',
@@ -22,6 +23,7 @@ const HeroSection = () => {
     }
   ];
 
+  // Auto-advance the slider every 5 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
@@ -29,6 +31,7 @@ const HeroSection = () => {
     return () => clearInterval(interval);
   }, [slides.length]);
 
+  // Manual navigation handlers that cycle slides with wrapping
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % slides.length);
   };
