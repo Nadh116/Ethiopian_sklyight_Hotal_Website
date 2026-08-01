@@ -14,6 +14,7 @@ import OffersPage from './pages/OffersPage';
 
 function App() {
   return (
+    // Main app shell that defines all page routes and global layout
     <Router>
       <div className="min-h-screen bg-white">
         <Header />
