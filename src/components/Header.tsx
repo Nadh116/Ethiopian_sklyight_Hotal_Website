@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Menu, X, Crown } from 'lucide-react';
 
 const Header = () => {
+  // Tracks whether the mobile navigation menu is currently open
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // List of pages linked in the site navigation menu
