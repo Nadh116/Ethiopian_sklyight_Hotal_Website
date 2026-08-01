@@ -2,6 +2,7 @@ import React from 'react';
 import { Users, Presentation, Heart, Calendar, MapPin, Phone } from 'lucide-react';
 
 const EventsPage = () => {
+  // Event venue options with capacity and available features
   const venues = [
     {
       name: 'Grand Ballroom',
@@ -26,6 +27,7 @@ const EventsPage = () => {
     }
   ];
 
+  // Predefined event packages with pricing and inclusions
   const packages = [
     {
       name: 'Wedding Package',
@@ -59,7 +61,7 @@ const EventsPage = () => {
         </div>
       </div>
 
-      {/* Event Venues */}
+      {/* Venue cards rendered from the venues data */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -146,7 +148,8 @@ const EventsPage = () => {
         </div>
       </section>
 
-      {/* Event Inquiry */}
+            {/* Event Inquiry */}
+      {/* Contact form for submitting event requests */}
       <section className="py-16 bg-blue-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-lg shadow-lg p-8">
