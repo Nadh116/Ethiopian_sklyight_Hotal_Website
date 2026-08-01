@@ -15,6 +15,7 @@ const Footer = () => {
             <p className="text-gray-300 mb-4">
               Experience luxury and Ethiopian hospitality at its finest in the heart of Addis Ababa.
             </p>
+            {/* Social media icon links for the hotel */}
             <div className="flex space-x-4">
               <Facebook className="h-6 w-6 text-gray-300 hover:text-yellow-600 cursor-pointer transition-colors" />
               <Instagram className="h-6 w-6 text-gray-300 hover:text-yellow-600 cursor-pointer transition-colors" />
@@ -71,6 +72,7 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Copyright bar displayed at the very bottom of the footer */}
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
           <p>&copy; 2025 Ethiopian Skylight Hotel. All rights reserved.</p>
         </div>
