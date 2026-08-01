@@ -154,6 +154,7 @@ const ContactPage = () => {
                 </div>
               </div>
               
+              {/* Directions from the airport, city center and public transport */}
               <div className="bg-yellow-50 p-6 rounded-lg">
                 <h3 className="text-lg font-semibold text-gray-800 mb-4">Getting Here</h3>
                 <div className="space-y-3 text-sm text-gray-600">
