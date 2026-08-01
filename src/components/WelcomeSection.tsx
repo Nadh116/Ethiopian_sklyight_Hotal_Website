@@ -16,6 +16,7 @@ const WelcomeSection = () => {
               luxury experience that seamlessly blends modern comfort with authentic Ethiopian hospitality. 
               Our commitment to excellence ensures every guest enjoys a memorable stay.
             </p>
+            {/* Key stats highlighting the hotel's strengths */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
               <div className="text-center p-4 bg-white rounded-lg shadow-md">
                 <div className="text-2xl font-bold text-yellow-600 mb-2">150+</div>
@@ -37,6 +38,7 @@ const WelcomeSection = () => {
               <span className="ml-2 text-gray-600">Exceptional Guest Reviews</span>
             </div>
           </div>
+          {/* Hotel lobby image with a floating "Since 2020" badge */}
           <div className="relative">
             <img
               src="https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg?auto=compress&cs=tinysrgb&w=800"
