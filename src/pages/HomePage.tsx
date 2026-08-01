@@ -8,6 +8,7 @@ import WelcomeSection from '../components/WelcomeSection';
 const HomePage = () => {
   return (
     <div>
+      {/* Home page composed of sections shown in vertical order */}
       <HeroSection />
       <BookingWidget />
       <WelcomeSection />
