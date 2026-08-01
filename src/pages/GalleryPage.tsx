@@ -52,6 +52,7 @@ const GalleryPage = () => {
     setCurrentIndex(index);
   };
 
+  // Hide the lightbox when the close action is triggered
   const closeLightbox = () => {
     setSelectedImage(null);
   };
