@@ -1,3 +1,4 @@
+/* Tailwind's base, component and utility layers that the app styles build on */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
