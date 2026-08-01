@@ -34,6 +34,7 @@ const TestimonialsSection = () => {
           <p className="text-lg text-gray-600">Real experiences from our valued guests around the world</p>
         </div>
         
+        {/* Grid of guest review cards pulled from the testimonials data */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
