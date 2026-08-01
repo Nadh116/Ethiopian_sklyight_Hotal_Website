@@ -6,6 +6,7 @@ const BookingWidget = () => {
   const [checkOut, setCheckOut] = useState('');
   const [guests, setGuests] = useState('2');
 
+  // Placeholder handler for the booking flow
   const handleBooking = () => {
     // Simulate booking process
     alert('Booking feature would be connected to hotel reservation system');
