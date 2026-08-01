@@ -69,6 +69,7 @@ const EventsPage = () => {
             <p className="text-lg text-gray-600">Flexible spaces designed for every occasion</p>
           </div>
           
+          {/* Three-column grid of venue cards with capacity info */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {venues.map((venue, index) => (
               <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
