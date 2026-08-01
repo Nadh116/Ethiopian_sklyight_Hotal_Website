@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const HeroSection = () => {
+  // Index of the slide currently displayed in the hero carousel
   const [currentSlide, setCurrentSlide] = useState(0);
 
   // Carousel slides each holding a background image and hero text
