@@ -2,6 +2,7 @@ import React from 'react';
 import { Utensils, Clock, Star, Coffee } from 'lucide-react';
 
 const DiningPage = () => {
+  // Dining venues data with cuisine, hours and signature dishes
   const restaurants = [
     {
       name: 'Addis Restaurant',
@@ -41,7 +42,7 @@ const DiningPage = () => {
         </div>
       </div>
 
-      {/* Restaurants */}
+      {/* Alternating restaurant showcase rows */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-16">
@@ -94,7 +95,7 @@ const DiningPage = () => {
         </div>
       </section>
 
-      {/* Special Offers */}
+      {/* Special dining experiences promoted with cards */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
