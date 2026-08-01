@@ -2,6 +2,7 @@ import React from 'react';
 import { Bed, Users, Wifi, Car, Coffee, Bath, Star } from 'lucide-react';
 
 const RoomsPage = () => {
+  // Catalog of room types with price, image, amenities and size details
   const rooms = [
     {
       name: 'Standard Room',
@@ -49,7 +50,7 @@ const RoomsPage = () => {
         </div>
       </div>
 
-      {/* Rooms Grid */}
+      {/* Grid of room cards with booking buttons */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -109,7 +110,7 @@ const RoomsPage = () => {
         </div>
       </section>
 
-      {/* Room Features */}
+      {/* Features included in every room across the hotel */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
