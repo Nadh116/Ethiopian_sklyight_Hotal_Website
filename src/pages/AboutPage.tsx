@@ -82,6 +82,7 @@ const AboutPage = () => {
             <p className="text-lg text-gray-600">Our commitment to excellence has been recognized globally</p>
           </div>
           
+          {/* Three award cards celebrating hotel achievements */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center p-6 bg-yellow-50 rounded-lg">
               <Award className="h-12 w-12 text-yellow-600 mx-auto mb-4" />
