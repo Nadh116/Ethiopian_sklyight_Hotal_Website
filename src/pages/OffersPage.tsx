@@ -2,6 +2,7 @@ import React from 'react';
 import { Star, Calendar, Users, Gift, Clock, Check } from 'lucide-react';
 
 const OffersPage = () => {
+  // Main promotional packages with pricing and inclusions
   const offers = [
     {
       title: 'Honeymoon Package',
@@ -77,6 +78,7 @@ const OffersPage = () => {
     }
   ];
 
+  // Limited-time seasonal deals with promo codes
   const seasonalOffers = [
     {
       title: 'Ethiopian New Year Special',
