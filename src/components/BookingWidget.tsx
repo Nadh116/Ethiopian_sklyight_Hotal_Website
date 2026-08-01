@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Calendar, Users, Search } from 'lucide-react';
 
 const BookingWidget = () => {
+  // Booking form state for check-in, check-out dates and guest count
   const [checkIn, setCheckIn] = useState('');
   const [checkOut, setCheckOut] = useState('');
   const [guests, setGuests] = useState('2');
