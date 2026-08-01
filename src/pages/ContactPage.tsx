@@ -2,6 +2,7 @@ import React from 'react';
 import { MapPin, Phone, Mail, Clock, Facebook, Instagram, Twitter, Linkedin, Send } from 'lucide-react';
 
 const ContactPage = () => {
+  // Prevent page reload and show a confirmation for the contact form
   const handleSubmit = (e) => {
     e.preventDefault();
     alert('Thank you for your message! We will get back to you soon.');
@@ -19,7 +20,7 @@ const ContactPage = () => {
         </div>
       </div>
 
-      {/* Contact Information */}
+      {/* Contact detail cards for location, phone, email and front desk */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
@@ -66,7 +67,7 @@ const ContactPage = () => {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {/* Contact Form */}
+            {/* Contact Form for sending messages to the hotel */}
             <div>
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Send us a Message</h2>
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -141,7 +142,7 @@ const ContactPage = () => {
               </form>
             </div>
             
-            {/* Map */}
+            {/* Map placeholder and directions to the hotel */}
             <div>
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Find Us</h2>
               <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center mb-6">
