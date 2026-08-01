@@ -2,6 +2,7 @@ import React from 'react';
 import { Utensils, Users, Wifi, Car, Dumbbell, Coffee } from 'lucide-react';
 
 const FeaturesSection = () => {
+  // Six amenity highlights each with an icon, title and description
   const features = [
     {
       icon: Utensils,
