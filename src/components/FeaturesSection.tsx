@@ -45,6 +45,7 @@ const FeaturesSection = () => {
           </p>
         </div>
         
+        {/* Responsive grid rendering each amenity feature card */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <div key={index} className="text-center group hover:transform hover:scale-105 transition-transform duration-300">
