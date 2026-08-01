@@ -121,6 +121,7 @@ const EventsPage = () => {
             <p className="text-lg text-gray-600">Comprehensive packages tailored to your needs</p>
           </div>
           
+          {/* Three cards showing the available event packages */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {packages.map((pkg, index) => (
               <div key={index} className="bg-gray-50 p-8 rounded-lg text-center hover:shadow-lg transition-shadow duration-300">
