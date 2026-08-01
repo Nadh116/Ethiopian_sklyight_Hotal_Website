@@ -182,6 +182,7 @@ const AmenitiesPage = () => {
             <p className="text-lg text-gray-600">Personalized services for your comfort and convenience</p>
           </div>
           
+          {/* Four-column layout displaying each additional service */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((service, index) => (
               <div key={index} className="bg-blue-50 p-6 rounded-lg text-center">
