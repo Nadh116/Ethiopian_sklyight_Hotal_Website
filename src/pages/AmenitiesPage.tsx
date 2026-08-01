@@ -2,6 +2,7 @@ import React from 'react';
 import { Dumbbell, Wifi, Car, Coffee, Utensils, Users, Heart, Shield, Phone, Clock } from 'lucide-react';
 
 const AmenitiesPage = () => {
+  // Amenities grouped into categories for organized display
   const amenities = [
     {
       category: 'Wellness & Recreation',
@@ -101,6 +102,7 @@ const AmenitiesPage = () => {
     }
   ];
 
+  // Additional hotel services available on request
   const services = [
     {
       name: 'Concierge Service',
@@ -140,7 +142,7 @@ const AmenitiesPage = () => {
         </div>
       </div>
 
-      {/* Amenities by Category */}
+      {/* Loops over each category and renders its items */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-16">
@@ -195,7 +197,7 @@ const AmenitiesPage = () => {
         </div>
       </section>
 
-      {/* Spa Highlight */}
+      {/* Featured spa section with treatments list */}
       <section className="py-16 bg-gradient-to-r from-yellow-50 to-yellow-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
