@@ -5,6 +5,7 @@ import FeaturesSection from '../components/FeaturesSection';
 import TestimonialsSection from '../components/TestimonialsSection';
 import WelcomeSection from '../components/WelcomeSection';
 
+// Landing page composing the main content sections of the hotel site
 const HomePage = () => {
   return (
     <div>
