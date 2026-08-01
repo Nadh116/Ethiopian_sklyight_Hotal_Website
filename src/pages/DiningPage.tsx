@@ -46,6 +46,7 @@ const DiningPage = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-16">
+            {/* Maps each restaurant into an alternating image and info row */}
             {restaurants.map((restaurant, index) => (
               <div key={index} className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${index % 2 === 1 ? 'lg:grid-flow-col-dense' : ''}`}>
                 <div className={index % 2 === 1 ? 'lg:col-start-2' : ''}>
