@@ -5,6 +5,7 @@ const GalleryPage = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  // Photos grouped by category for the gallery sections
   const galleryImages = [
     {
       category: 'Exterior',
@@ -42,8 +43,10 @@ const GalleryPage = () => {
     }
   ];
 
+  // Flatten all images so the lightbox can navigate the full set
   const allImages = galleryImages.flatMap(category => category.images);
 
+  // Open the lightbox for a selected image
   const openLightbox = (image, index) => {
     setSelectedImage(image);
     setCurrentIndex(index);
@@ -77,7 +80,7 @@ const GalleryPage = () => {
         </div>
       </div>
 
-      {/* Gallery Sections */}
+      {/* Renders each photo category in its own section */}
       <div className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {galleryImages.map((category, categoryIndex) => (
@@ -136,7 +139,7 @@ const GalleryPage = () => {
         </div>
       </section>
 
-      {/* Lightbox */}
+      {/* Fullscreen lightbox shown only when an image is selected */}
       {selectedImage && (
         <div className="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center p-4">
           <div className="relative max-w-4xl max-h-full">
